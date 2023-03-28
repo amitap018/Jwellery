@@ -1,0 +1,130 @@
+.openBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+ 
+}
+.openButton {
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #AE8625, #F7EF8A, #D2AC47, #EDC967, #AE8625);
+  /* background-color: #D2AC47; */
+  color: black;
+  padding: 14px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.radio{
+  display: inline-flex;
+  /* float: left; */
+  align-items:center;
+}
+
+.rad1, .rad2{
+  margin: 10px;
+}
+
+form{
+    width: 25rem;
+    height: 35rem;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 12px;
+    overflow: auto;
+    background: linear-gradient(135deg, #AE8625, #F7EF8A, #D2AC47, #EDC967, #AE8625);
+    border: 50px solid;
+    border-image: url(design1.jpg) 100% round;
+}
+
+input{
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px 18px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+
+.loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .loginPopupa {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%,1%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .formPopupa {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%,1%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .formContainer {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .formContainera {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+ 
+  .formContainer .btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+  }
+  .formContainer .cancel {
+    background-color: #cc0000;
+  }
+  .formContainer .btn:hover,
+  .openButton:hover {
+    opacity: 1;
+  }
+  
+  .flex-parent {
+    display: flex;
+  }
+  
+  .jc-center {
+    justify-content: center;
+  }
+  
+  
+  button.margin-right {
+    margin-right: 20px;
+  }
+
